@@ -1,0 +1,26 @@
+# Root .gitignore
+.venv/
+.venv
+venv/
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+db.sqlite3
+__pycache__/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.git/
+
+# IDE
+.pylintrc
+.mypy_cache/
+.pytest_cache/
+
+# OS
+Thumbs.db
